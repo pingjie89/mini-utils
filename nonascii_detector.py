@@ -28,7 +28,7 @@ def main(arguments):
             
             for char in line:
                 if regex.match(char):
-                    print(whichline,':',whichchar,':',char.encode('utf-8'),'is none ASCII character')
+                    print(whichline,':',whichchar,':',char,'is none ASCII character')
                 whichchar += 1
         whichline += 1
     
